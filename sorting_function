@@ -23,10 +23,9 @@ uint64_t descendingOrder(uint64_t a)
           s[i+1] = temp;
           unsorted = true;
         }
-        std::cout << s[i] << std::endl;
       }
     }
-    return stoi(s);
+    return std::stoul(s);
   }
   
 }
